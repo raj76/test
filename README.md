@@ -1,31 +1,8 @@
----
-title: Exascaler 3.x to 4.x Non-Embedded
- ![DDN Storage](DDN-Storage.jpg "DDN Storage")
-date: 2018 Sept
-source: ssh://git@eu.ddn.com/git/installations/exascaler_upgrade_plans.git
-tags: [upgrade, exascaler, v4_0_0]
-toc: yes
-columns: 72
-extensions: +pipe_tables,+yaml_metadata_block
-documentclass: report
-geometry: "left=0.5in, right=0.75in, bottom=0.75in, top=0.75in"
 
-header-includes:
-  - \usepackage{fancyhdr}
-  - \pagestyle{fancy}
-  - \fancyhead{}
-  - \fancyhead[R]{}
-  - \fancyfoot[L]{DDN® 2018}
-  - \fancyfoot[C]{EXAScaler Upgrade Planning}
-  - \fancyfoot[R]{\thepage}
----
-
-\pagebreak
 
 Upgrade Type and Resource Requirements
 ==============================
 
-|:----------------|:--------------------------------|
 |Upgrade Type     |EXAScaler 3.x to 4.X non-embedded|
 |Plan template    |Exascaler-3.x\_to\_4.x-Non-Embedded.md|
 |Case             |108462                                |
